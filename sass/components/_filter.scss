@@ -36,3 +36,7 @@
   letter-spacing: 0.03em;
   color: $white-color;
 }
+
+.itembutton:not(:last-child) {
+    margin-right: 8px;
+}

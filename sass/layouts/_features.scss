@@ -37,11 +37,11 @@
 		background-image: url(../images/features/astronaut.svg);
 	}
 }
-.itembutton {
-	&:not(:last-child) {
-		margin-right: 8px;
-	}
+
+.itembutton:not(:last-child) {
+    margin-right: 8px;
 }
+
 .features-text {
 	font-weight: 700;
 	font-size: 14px;
