@@ -1,0 +1,74 @@
+.vertical {
+	padding-top: 94px;
+}
+
+.features-item {
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
+	&::before {
+		display: block;
+		content: '';
+		height: 120px;
+		background-size: 67px 70px;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-color: $img-color;
+		border-radius: 4px;
+	}
+}
+.icon-antena {
+	&::before {
+		background-image: url(../images/features/antenna.svg);
+	}
+}
+.icon-clock {
+	&::before {
+		background-image: url(../images/features/clock.svg);
+	}
+}
+.icon-diagram {
+	&::before {
+		background-image: url(../images/features/diagram.svg);
+	}
+}
+.icon-austronavt {
+	&::before {
+		background-image: url(../images/features/astronaut.svg);
+	}
+}
+.itembutton {
+	&:not(:last-child) {
+		margin-right: 8px;
+	}
+}
+.features-text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--title-color);
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.text {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	justify-content: center;
+	line-height: 1.714;
+	width: 270px;
+	height: 75px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+}
+
+.features-img {
+  background: $img-color;
+  padding: 25px 100px;
+  border-radius: 4px;
+}

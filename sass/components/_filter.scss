@@ -1,0 +1,38 @@
+.portfolio-btn {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.button-text {
+	display: flex;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: $title-color;
+	background: #f5f4fa;
+	border-radius: 4px;
+	padding: 6px 22px;
+	border: none;
+	transition-property: background-color, color;
+	transition-duration: 250ms, 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		color: $white-color;
+		background: $accent-color;
+	}
+	&:focus {
+		color: $white-color;
+		background: $accent-color;
+	}
+}
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $white-color;
+}

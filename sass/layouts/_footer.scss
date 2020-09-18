@@ -1,0 +1,113 @@
+footer {
+	background: #2f303a;
+}
+.footer-box {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	align-items: center;
+}
+.footer-box-sub {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.logo-foot {
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: $white-color;
+	text-decoration: none;
+}
+.subscribe {
+	display: block;
+	margin-right: 93px;
+}
+.logo-address {
+	display: block;
+	margin-right: 70px;
+}
+.sub-form {
+	display: block;
+}
+.footer-form {
+	display: block;
+	margin-top: 0;
+}
+.foot-text {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $white-color;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.join-link {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	color: $white-color;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		background-color: $accent-color;
+	}
+	&:focus {
+		background-color: $accent-color;
+	}
+}
+.soc-link-focus {
+	width: 20px;
+	height: 20px;
+	fill: currentColor;
+}
+
+.placeholder {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: inherit;
+  margin-right: 12px;
+  padding-left: 16px;
+      color: rgba(255, 255, 255, 0.6);
+}
+
+.sent-icon {
+  margin-left: 10px;
+}
+
+.add {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $white-color;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.footer-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
